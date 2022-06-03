@@ -1,0 +1,56 @@
+body {
+    background-color: rgba(190, 224, 128, 0.47);
+}
+
+.title {
+    font-size: 10vh;
+    margin: 0 auto;
+    width: 90vw;
+}
+
+textarea {
+    width: 90vw;
+    height: 35vh;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#text-area__container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#button__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90vw;
+}
+
+button {
+    background-color: #eec27b;
+    border: none;
+    height: 4em;
+    width: 17vw;
+    font-size: 1em;
+    font-weight: 550;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: orange;
+}
+button:active {
+    background-color: orangered;
+}
+
+@media (max-width: 460px) {
+    button {
+        font-size: .7em;
+        font-weight: 500;
+    }
+
+}
